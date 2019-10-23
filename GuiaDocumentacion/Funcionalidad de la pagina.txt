@@ -1,0 +1,11 @@
+- El cliente puede armar un paquete con lo que quiera
+- Exite una lista de espera que habilita  la persona a reservar algo reservado
+- Pagos se pueden efectuar en la pagina web, con tarjeta de credito o debito
+- Registro de usuarios
+- Se puede reservar sin pagar o se puede reservar pagando de inmediato
+- Confirmacion antes de las 24hs de la fecha de reserva
+- confirmacion por telefono o por pagina, pidiendo una tarjeta de credito de garantia
+- Colocar los terminos del contrato
+- Vincula 1 o mas tarjetas de credito o debito o vincular cuanta de paypal
+- Reservacion de platos de comida con un horario en el restaurante (Por ejemplo desea pedir comida y dice que va a ir a comer a las 13 h, entonces el restaurante ya le tendra preparado el plato), el pago lo puede hacer en el restaurante, o en la pagina con las tarjetas vinculadas.
+- 

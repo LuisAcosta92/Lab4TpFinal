@@ -1,0 +1,8 @@
+- Cliente
+- reserva - (Restaurante) y (General)
+- Excurciones
+- camping
+- alojamiento (Posada)
+- restaurante
+- Comidas
+- Añoranzas chaqueñas
