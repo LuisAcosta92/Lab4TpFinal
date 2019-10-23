@@ -1,13 +1,13 @@
 <?php
-class AnioranzaChaquenia{
+    class AnioranzaChaquenia{
 
-    $nombre;
-    $descripcion;
-    $cuitCuil;
-    $direccion;
-    $telefono;
-    $email;
-    $codigoPostal;
-}
+        $nombre;
+        $descripcion;
+        $cuitCuil;
+        $direccion;
+        $telefono;
+        $email;
+        $codigoPostal;
+    }
 
 ?>
