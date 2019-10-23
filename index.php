@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <?php
-    include ("Reserva.php");
-    ?>
 
 <head>
     <meta charset="UTF-8">
