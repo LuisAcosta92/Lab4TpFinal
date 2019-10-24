@@ -1,8 +1,4 @@
 
-<?php
-require ("php/clases/Registro.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +9,18 @@ require ("php/clases/Registro.php");
 </head>
 <body>
     <h1>ENTRASTE GG WP</h1>
+     <?php
+    include ("php/clases/Registro.php");
+    include ("php/clases/Cliente.php");
+    if(isset($_POST["email"])){
+        $reg = new Registro();
+        var_dump($reg);
+        $Cliente = $reg::CargarCliente(1,$_POST["nombre"],$_POST["apellido"],$_POST["dni"],$_POST["direccion"],$_POST["telefono"],$_POST["celular"],$_POST["fechaNacimiento"],$_POST["pais"],$_POST["provincia"],$_POST["localidad"],$_POST["Usuario"],$_POST["email"]);
+        var_dump($Cliente);
+    } 
 
-    <form action="php/clases/Registro.php" method="post">
+?>
+    <form action="" method="post">
         Nombre de usuario:  <br>
         <input type="text" name="Usuario" placeholder="Ingrese su Nombre de usuario"> 
         <br>
@@ -56,7 +62,8 @@ require ("php/clases/Registro.php");
         <br>
         Localidad:  <br>
         <input type="text" name="localidad" placeholder="Ingrese localidad">
-        <input type="submit" value="Registrarce"> <a href="index.php"><input type="button" value="Cancelar"></a>
+
+        <input type="submit" value="Registrarce"><a href="index.php"><input type="button" value="Cancelar"></a>
     </form>
 </body>
 </html>
