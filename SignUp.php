@@ -1,7 +1,10 @@
+
+<?php
+require ("php/clases/Registro.php");
+?>
+
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +12,8 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Hola wacho</h1>
-   <h2>hola de nuevo</h2>
-   <h3>ramaModifHtml</h3>
-    <span><a href="SignUp.php">SignUp</a></span>
+    <h1>ENTRASTE GG WP</h1>
+
+    <form action="" method="post"></form>
 </body>
 </html>
