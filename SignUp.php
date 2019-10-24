@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <LINK REL=StyleSheet HREF="styles/estilo_1.css" TYPE="text/css" MEDIA=screen>
 </head>
 <body>
     <h1>ENTRASTE GG WP</h1>
@@ -14,9 +15,7 @@
     include ("php/clases/Cliente.php");
     if(isset($_POST["email"])){
         $reg = new Registro();
-        var_dump($reg);
         $Cliente = $reg::CargarCliente(1,$_POST["nombre"],$_POST["apellido"],$_POST["dni"],$_POST["direccion"],$_POST["telefono"],$_POST["celular"],$_POST["fechaNacimiento"],$_POST["pais"],$_POST["provincia"],$_POST["localidad"],$_POST["Usuario"],$_POST["email"]);
-        var_dump($Cliente);
     } 
 
 ?>
@@ -65,5 +64,6 @@
 
         <input type="submit" value="Registrarce"><a href="index.php"><input type="button" value="Cancelar"></a>
     </form>
+  
 </body>
 </html>
