@@ -12,8 +12,5 @@
         $provincia;
         $localidad;
         $email;
-        $usuario;
-        $password;
     }
-
 ?>
